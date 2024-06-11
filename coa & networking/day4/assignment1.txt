@@ -1,0 +1,47 @@
+
+1.Assignment 1: Agile Project Planning - Create a doctor appointment and online medical system feature.
+project plan for a new software feature using Agile
+planning techniques. Include backlog items with estimated story points and a prioritized list of user stories.
+
+
+
+1. Backlog Items with Estimated Story Points:**
+
+Here are some example backlog items along with their estimated story points:
+
+**User Stories:**
+1. **As a patient, I want to be able to schedule a doctor appointment online:** (5 story points)
+2. **As a patient, I want to see the available time slots for a specific doctor:** (3 story points)
+3. **As a patient, I want to receive confirmation of my appointment via email:** (2 story points)
+4. **As a patient, I want to be able to cancel or reschedule my appointment:** (5 story points)
+5. **As a doctor, I want to view my upcoming appointments:** (3 story points)
+6. **As a doctor, I want to be notified when a patient schedules, cancels, or reschedules an appointment:** (5 story points)
+7. **As an admin, I want to add new doctors and their availability:** (8 story points)
+8. **As an admin, I want to manage patient records securely:** (8 story points)
+
+**Non-Functional Requirements:**
+1. **Ensure HIPAA compliance for patient data:** (5 story points)
+2. **Implement secure login and authentication:** (3 story points)
+3. **Design a user-friendly interface:** (5 story points)
+
+**2. Prioritized List of User Stories:**
+
+The prioritized list of user stories might look like this:
+
+1. **As a patient, I want to be able to schedule a doctor appointment online:** 
+This is the core functionality of the system and should be prioritized first.
+2. **As an admin, I want to add new doctors and their availability:** Without doctors available,
+ patients won't be able to schedule appointments.
+3. **As a patient, I want to be able to cancel or reschedule my appointment:** Providing flexibility to patients is crucial.
+4. **As a doctor, I want to be notified when a patient schedules, cancels, or reschedules an appointment:
+ This is important for managing the doctor's schedule efficiently.
+5. **As a patient, I want to see the available time slots for a specific doctor:** 
+This enhances the user experience by providing relevant information upfront.
+6. **As a doctor, I want to view my upcoming appointments:** Essential for doctors to plan their day.
+7. **As a patient, I want to receive confirmation of my appointment via email:** Provides reassurance and serves as a reminder.
+8. **As an admin, I want to manage patient records securely:** While important, this can be implemented once the core functionalities are in place.
+
+**3. Agile Approach:**
+
+Utilizing Scrum or Kanban methodologies, the team can break down these user stories into smaller tasks and track progress through sprints or continuous flow. Daily
+ stand-ups can help address any blockers or issues. Regular sprint reviews and retrospectives will allow for continuous improvement of the process and the product.

@@ -1,0 +1,37 @@
+Assignment 2: Produce a comparative infographic of TDD, BDD, and FDD methodologies.
+Illustrate their unique approaches, benefits,and suitability for different 
+software development contexts. Use visuals to enhance understanding.
+Sure, here is a comparative infographic of TDD, BDD, and FDD methodologies:
+
+TDD, BDD, and FDD: A Comparative Infographic
+
+[Imagen of A three-panel infographic. The left panel is titled "Test-Driven Development (TDD)".
+ It shows a developer writing code on a 
+computer, with a test case window open next to it. The center panel is titled 
+"Behavior-Driven Development (BDD)". It shows a group of people (developers, testers, and stakeholders) 
+sitting around a table, discussing a user story written on a whiteboard. The right panel is titled 
+"Feature-Driven Development (FDD)". It shows a roadmap with features broken down into smaller tasks.]
+
+Unique Approaches
+
+TDD (Test-Driven Development):Focuses on writing unit tests before writing any code.
+ This ensures that the code is designed to be testable and helps to catch bugs early in the development process.
+BDD (Behavior-Driven Development):Focuses on creating user stories that describe the
+ desired behavior of the software from the user's perspective. These user stories are
+ then used to write acceptance tests that can be automated.
+FDD (Feature-Driven Development):Focuses on breaking down large features into smaller,
+ more manageable tasks. This helps to improve communication and collaboration between developers and stakeholders.
+
+Benefits
+
+TDD:Improved code quality, fewer bugs, faster development cycles.
+BDD:Improved communication and collaboration, better understanding of user needs, reduced risk of project failure.
+FDD:Improved project planning and estimation, reduced risk of scope creep, increased stakeholder buy-in.
+
+Suitability
+TDD:Suitable for projects with well-defined requirements, where unit testing is important.
+BDD:Suitable for projects with a focus on user experience, where communication and collaboration are essential.
+FDD:Suitable for large, complex projects, where clear planning and communication are critical.
+
+In conclusion, TDD, BDD, and FDD are all valuable software development methodologies
+ that can be used to improve the quality and efficiency of software development. The best methodology to use will depend on the specific needs of the project.**
