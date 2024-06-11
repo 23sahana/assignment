@@ -1,0 +1,30 @@
+2.linux commands
+ls: List directory contents.
+cd [directory]: Change directory.
+pwd: Print working directory.
+mkdir [directory]: Create a new directory.
+rm [file/directory]: Remove files or directories.
+cp [source] [destination]: Copy files or directories.
+mv [source] [destination]: Move or rename files or directories.
+cat [file]: Concatenate and display the content of a file.
+less [file]: View file content one screen at a time.
+grep [pattern] [file]: Search for a pattern in a file.
+chmod [permissions] [file]: Change file permissions.
+chown [owner] [file]: Change file owner.
+sudo [command]: Run a command with superuser privileges.
+ps: Display information about active processes.
+kill [PID]: Terminate a process by its process ID.
+top: Display dynamic real-time information about running processes.
+df: Display disk space usage.
+du: Display directory space usage.
+tar: Manipulate archive files.
+ssh [user]@[host]: Connect to a remote host using SSH.
+scp [file] [user]@[host]:[destination]: Securely copy files between hosts.
+wget [URL]: Download files from the web.
+curl [URL]: Transfer data from or to a server.
+ping [host]: Send ICMP echo requests to a host.
+ifconfig: Display network interface configuration.
+netstat: Display network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+uname: Print system information.
+history: Display the command history list.
+man [command]: Display the manual page for a command.
