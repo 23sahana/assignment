@@ -1,0 +1,47 @@
+Assignment 1: Analyze a given business scenario and create an ER diagram that includes entities,
+relationships, attributes, and cardinality. Ensure that the diagram reflects proper normalization 
+up to the third normal form.
+ 
+
+Entities:
+Customer: Attributes: Customer_ID (PK), Name, Email, Address
+Book: Attributes: ISBN (PK), Title, Author, Genre, Price
+Order: Attributes: Order_ID (PK), Customer_ID (FK), Order_Date
+Order_Detail: Attributes: Order_Detail_ID (PK), Order_ID (FK), ISBN (FK), Quantity
+Publisher: Attributes: Publisher_ID (PK), Publisher_Name, Address
+
+Relationships:
+Customer-Order: One customer can place many orders. (One-to-Many)
+Order-Order Detail: One order can have many order details, but each order detail belongs to only one order. (One-to-Many)
+Book-Order Detail: One book can be in many order details, but each order detail is for only one book. (One-to-Many)
+Publisher-Book: One publisher can publish many books, but each book is published by only one publisher. (One-to-Many)
+
+Cardinality:
+Customer (1) -----(0 to Many)-----> Orders
+Order (1) -----(1 to Many)-----> Order Details
+Book (1) -----(1 to Many)-----> Order Details
+Publisher (1) -----(1 to Many)-----> Books 
+
+ +-----------------+      +----------------+       +--------------+
+    |    Customer     |      |     Order      |       |   Order      |
+    +-----------------+      +----------------+       |   Detail     |
+    | Customer_ID (PK)|      | Order_ID (PK) |       +--------------+
+    | Name            |      | Customer_ID (FK)|-----> | Order_Detail |
+    | Email           |      | Order_Date     |       +--------------+
+    | Address         |      +----------------+       | Order_Detail |
+    +-----------------+                             +--------------+
+                |                                                |
+                |                                                |
+                |                                                |
+                |                                                |
+                |                                                |
+                v                                                v
+    +----------------+                            +----------------+
+    |     Book       |                            |   Publisher    |
+    +----------------+                            +----------------+
+    | ISBN (PK)      |                            | Publisher_ID   |
+    | Title          |                            | Publisher_Name |
+    | Author         |                            | Address        |
+    | Genre          |                            +----------------+
+    | Price          |
+    +----------------+
