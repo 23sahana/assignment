@@ -1,0 +1,56 @@
+Assignment 2: Design a database schema for a
+ library system, including tables, fields,
+ and constraints like NOT NULL, UNIQUE, and CHECK.
+ Include primary and foreign keys to establish relationships between tables.
+ 
+1.   - Fields:
+     - `book_id` (Primary Key)
+     - `title`
+     - `author`
+     - `genre`
+     - `ISBN` (Unique)
+     - `publication_year`
+   - Constraints:
+     - `title` NOT NULL
+     - `author` NOT NULL
+     - `ISBN` NOT NULL
+     - `publication_year` CHECK (publication_year >= 0)
+
+2. **Authors Table**:
+   - Fields:
+     - `author_id` (Primary Key)
+     - `author_name`
+   - Constraints:
+     - `author_name` NOT NULL
+
+3. **Genres Table**:
+   - Fields:
+     - `genre_id` (Primary Key)
+     - `genre_name`
+   - Constraints:
+     - `genre_name` NOT NULL
+
+4. **Users Table**:
+   - Fields:
+     - `user_id` (Primary Key)
+     - `username` (Unique)
+     - `password`
+     - `email`
+     - `full_name`
+   - Constraints:
+     - `username` NOT NULL
+     - `password` NOT NULL
+     - `email` NOT NULL
+
+5. **Loans Table**:
+   - Fields:
+     - `loan_id` (Primary Key)
+     - `book_id` (Foreign Key referencing `Books`)
+     - `user_id` (Foreign Key referencing `Users`)
+     - `loan_date`
+     - `return_date`
+   - Constraints:
+     - `book_id` NOT NULL
+     - `user_id` NOT NULL
+     - `loan_date` NOT NULL
+     - `return_date` CHECK (return_date > loan_date)

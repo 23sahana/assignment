@@ -1,0 +1,10 @@
+Assignment 4: Craft a query using an INNER JOIN to combine 'orders' and 'customers' 
+tables for customers in a specified region, and a LEFT JOIN to display all customers including those without orders
+SELECT *
+FROM customers
+LEFT JOIN orders ON customers.customer_id = orders.customer_id
+WHERE customers.region = 'specified_region';
+We're selecting all columns from the 'customers' table.
+We're using LEFT JOIN to ensure that all customers are included in the result set, even if they don't have orders.
+We're specifying the condition for the join using 'customers.customer_id = orders.customer_id'.
+We're filtering the result set based on the specified region using the WHERE clause. You can replace 'specified_region' with the actual region you want to query for.
